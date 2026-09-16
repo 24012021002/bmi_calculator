@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Dark Theme Palette from Image -->
+    <color name="bg_dark">#121418</color>
+    <color name="card_dark">#1B1E24</color>
+    <color name="card_dark_variant">#242932</color>
+
+    <!-- Accent Colors -->
+    <color name="accent_orange">#FF6C47</color>
+    <color name="accent_purple">#9B5DE5</color>
+    <color name="accent_cyan">#00BB9C</color>
+    <color name="accent_blue">#3A86FF</color>
+    <color name="accent_green">#2ECC71</color>
+    <color name="accent_pink">#F15BB5</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#8C93A3</color>
+    <color name="progress_track">#262B35</color>
+</resources>
