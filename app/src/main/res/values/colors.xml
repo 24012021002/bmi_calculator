@@ -3,21 +3,28 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-    <!-- Dark Theme Palette from Image -->
-    <color name="bg_dark">#121418</color>
-    <color name="card_dark">#1B1E24</color>
-    <color name="card_dark_variant">#242932</color>
+    <!-- Light Theme Palette -->
+    <color name="bg_light">#F5F7FA</color>
+    <color name="card_light">#FFFFFF</color>
+    <color name="divider_light">#E1E4E8</color>
 
-    <!-- Accent Colors -->
-    <color name="accent_orange">#FF6C47</color>
-    <color name="accent_purple">#9B5DE5</color>
-    <color name="accent_cyan">#00BB9C</color>
+    <!-- Accent Colors (Modern Blue & Professional Tones) -->
+    <color name="primary_blue">#0056B3</color>
+    <color name="primary_blue_dark">#003D80</color>
     <color name="accent_blue">#3A86FF</color>
-    <color name="accent_green">#2ECC71</color>
-    <color name="accent_pink">#F15BB5</color>
+    <color name="accent_green">#28A745</color>
+    <color name="accent_orange">#FD7E14</color>
+    <color name="accent_pink">#D63384</color>
+    <color name="accent_cyan">#17A2B8</color>
+    <color name="accent_purple">#6F42C1</color>
 
     <!-- Text Colors -->
-    <color name="text_primary">#FFFFFF</color>
-    <color name="text_secondary">#8C93A3</color>
-    <color name="progress_track">#262B35</color>
+    <color name="text_primary">#000000</color>
+    <color name="text_secondary">#6C757D</color>
+
+    <!-- Backward Compatibility Aliases for Build Stability -->
+    <color name="bg_dark">@color/bg_light</color>
+    <color name="card_dark">@color/card_light</color>
+    <color name="card_dark_variant">@color/divider_light</color>
+    <color name="progress_track">#E9ECEF</color>
 </resources>
