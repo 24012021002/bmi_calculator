@@ -10,6 +10,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        // Set Dynamic Welcome Name
+        val userName = intent.getStringExtra("USER_NAME") ?: "User"
+        findViewById<TextView>(R.id.tv_welcome_name).text = "Welcome, $userName"
+
         // Dropdown setup
         val sex = findViewById<AutoCompleteTextView>(R.id.spinner_sex)
         sex.setAdapter(ArrayAdapter(this, android.R.layout.simple_dropdown_item_1line, HealthConstants.SEX_OPTIONS))

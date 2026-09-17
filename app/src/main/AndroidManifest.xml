@@ -19,9 +19,13 @@
         </activity>
 
         <activity android:name=".MainActivity" android:exported="false" />
+        <activity android:name=".LoginActivity" android:exported="false" />
+        <activity android:name=".OnboardingActivity" android:exported="false" />
         <activity android:name=".ResultActivity" android:exported="false" />
         <activity android:name=".CaloriePlanActivity" android:exported="false" />
         <activity android:name=".NutritionActivity" android:exported="false" />
+        <activity android:name=".WorkoutActivity" android:exported="false" />
+        <activity android:name=".HydrationActivity" android:exported="false" />
         <activity android:name=".HealthTipsActivity" android:exported="false" />
 
     </application>

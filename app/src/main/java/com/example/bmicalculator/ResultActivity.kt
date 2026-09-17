@@ -59,7 +59,20 @@ class ResultActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        // Navigation to Page 6: Health Tips
+        // Navigation to Page 6: Workout Plans
+        findViewById<Button>(R.id.btn_view_workout).setOnClickListener {
+            val intent = Intent(this, WorkoutActivity::class.java).apply {
+                putExtras(this@ResultActivity.intent.extras!!)
+            }
+            startActivity(intent)
+        }
+
+        // Navigation to Page 7: Hydration Tracker
+        findViewById<Button>(R.id.btn_view_hydration).setOnClickListener {
+            startActivity(Intent(this, HydrationActivity::class.java))
+        }
+
+        // Navigation to Page 8: Health Tips
         findViewById<Button>(R.id.btn_view_tips).setOnClickListener {
             startActivity(Intent(this, HealthTipsActivity::class.java))
         }

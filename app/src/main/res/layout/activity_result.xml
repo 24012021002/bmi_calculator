@@ -80,6 +80,22 @@
             android:backgroundTint="@color/accent_cyan"/>
 
         <Button
+            android:id="@+id/btn_view_workout"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="12dp"
+            android:text="Workout Plans &amp; Tracker"
+            android:backgroundTint="@color/accent_orange"/>
+
+        <Button
+            android:id="@+id/btn_view_hydration"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="12dp"
+            android:text="Hydration &amp; Water Tracker"
+            android:backgroundTint="@color/accent_blue"/>
+
+        <Button
             android:id="@+id/btn_view_tips"
             android:layout_width="match_parent"
             android:layout_height="60dp"
